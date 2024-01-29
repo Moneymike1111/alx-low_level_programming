@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * print_alphabet - prints a lowercase aplphabet using _putchar
  * with a new line at the end
