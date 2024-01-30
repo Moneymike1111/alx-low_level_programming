@@ -13,12 +13,5 @@ int print_last_digit(int kutr)
 
 	kor = kutr % 10;
 
-	if (kor != 0)
-	{
-		return (kor);
-	}
-	else
-	{
-		return (0);
-	}
+	return (kor);
 }
