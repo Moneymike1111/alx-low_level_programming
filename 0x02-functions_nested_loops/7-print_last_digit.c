@@ -9,11 +9,13 @@
  */
 int print_last_digit(int kutr)
 {
-	kutr = kutr % 10;
+	int kor;
 
-	if (kutr != 0)
+	kor = kutr % 10;
+
+	if (kor != 0)
 	{
-		return (kutr);
+		return (kor);
 	}
 	else
 	{
