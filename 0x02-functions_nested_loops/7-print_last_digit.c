@@ -13,6 +13,6 @@ int print_last_digit(int kutr)
 
 	kor = kutr % 10;
 
-	_putchar(kor)
+	_putchar(kor);
 	return (kor);
 }
