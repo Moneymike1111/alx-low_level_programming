@@ -15,7 +15,7 @@ int _abs(int kutr)
 	}
 	else
 	{
-		kutr *= -1
+		kutr *= -1;
 		return (kutr);
 	}
 }
