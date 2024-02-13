@@ -12,7 +12,7 @@ char *cap_string(char *ka)
 {
 	int k;
 
-	for (k = 0; ka[k] != "\0"; k++)
+	for (k = 0; ka[k] != '\0'; k++)
 	{
 		if ((ka[k] >= 'a' && ka[k] <= 'z') && k == 0)
 			ka[k] = ka[k] - 32;
